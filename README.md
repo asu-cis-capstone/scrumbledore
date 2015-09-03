@@ -1,10 +1,10 @@
 # scrumbledore
-Overview:
+<b>Overview:</b>
   Neighborhood social is the online medium for a location based bulletin board. This website/app will allow users to post various events based on their location to encourage a more integral community. This will focus on college campuses or neighborhoods where the population density is relatively dense.
 
 
 
-Getting Started
+<b>Getting Started</b>
   How to install
     Simply go on neighborhoodsocial.com and make an account. Your account can be made using your facebook info as well. 
   
@@ -13,15 +13,15 @@ Getting Started
     
 
 
-To-Do List  
+<b>To-Do List  </b>
   
 
-Release Notes
+<b>Release Notes</b>
   
   
   
 
-List of Contributors
+<b>List of Contributors</b>
 
 • Blaze Malan
 
