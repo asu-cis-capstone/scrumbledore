@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/asu-cis-capstone/scrumbledore.png?label=ready&title=Ready)](https://waffle.io/asu-cis-capstone/scrumbledore)
 # scrumbledore
 <b>Overview:</b>
   Neighborhood Social is the online medium for a location-based bulletin board. This website and app will allow users to post various events based on their location to encourage a more integral community. This will focus on college campuses or neighborhoods where the population density is relatively dense.
