@@ -1,16 +1,11 @@
 # scrumbledore
 <b>Overview:</b>
-  Neighborhood Social is the online medium for a location-based bulletin board. This website and app will allow users to post various events based on their location to encourage a more integral community. This will focus on college campuses or neighborhoods where the population density is relatively dense.
-
-
-
-<b>Getting Started</b>
-  How to install
-    Simply go on neighborhoodsocial.com and create an account. Your account can be made using your Facebook info as well. 
-  
-  Guide
+Neighborhood Social is the online medium for a location-based bulletin board. This website and app will allow users to post various events based on their location to encourage a more integral community. This will focus on college campuses or neighborhoods where the population density is relatively dense.
 
 The owners at Neighborhood Social have asked Scrumbledore’s Army to give their mobile app a “facelift”. Our team is currently in the process of developing the front end for the app. Our current project code is the skeleton/frame and once completed will be able to have the functioning app code injected into it and available for Android and iOS platforms.
+
+<b>Getting Started</b>
+How to install:
 
 For iOS devices:
 
@@ -22,7 +17,6 @@ Download: https://www.dropbox.com/s/m1jwkzcqcp14apf/8_10_2015.ipa?dl=0
 4. Click on Sync and wait for the app to complete installation 
 
 The old version of the app can be downloaded directly from the App Store: https://itunes.apple.com/us/app/neighborhood-social-user/id1018721834?mt=8
-
 
 For Android devices:
 
