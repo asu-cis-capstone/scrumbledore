@@ -21,6 +21,10 @@
     });
   </script>
   <script type="text/javascript" src="js/modernizr.js"></script>
+
+<!-- PDubs: scripts -->
+
+<!-- script end-->    
   <link rel="shortcut icon" type="image/x-icon" href="images/logoStandford32.ico">
   <link rel="apple-touch-icon" href="images/logoStandford32.ico">
 
@@ -50,11 +54,9 @@
                 <div class="separator-button-input"></div>
               </div>
               <input class="w-button action-button" type="submit" value="Sign In" data-wait="Please wait...">
-                <input class="w-button action-button" type="submit" value="Login with Facebook" data-wait="Please wait...">
-<!-- PDubs: not sure if we need this...
-                    <a href="#" onClick="facebookLogin();" ><span class="fbbutton" text="white"><span class="fb-facebook"></span>&nbspLogin With Facebook</span></a>
-                </div>
--->
+                
+                <button type="button" onclick="fblogin(true);" class="btn btn-primary btn-lg col-sm-12" style="width:100%;"><i class="fa fa-facebook-square"></i> Login with Facebook</button>
+                
               <div class="separator-button"></div><a class="link-upper" href="signup.html" data-load="1">YOU DON’T HAVE AN ACCOUNT? <strong class="b-link">SIGN UP</strong></a>
             </form>
             <div class="w-form-done">

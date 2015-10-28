@@ -42,34 +42,23 @@
           <div class="w-form">
             <form id="submit-form" name="email-form" data-name="Email Form" data-redirect="settings.html" action="#">
               <div>
-                <label class="label-form" for="full-name-field">FULL NAME</label>
+                <label class="label-form" for="full-name-field">LOCATION</label>
                 <input class="w-input input-form" id="full-name-field" type="text" name="full-name" data-name="full-name" required="required">
                 <div class="separator-fields"></div>
               </div>
               <div>
-                <label class="label-form" for="email-field">EMAIL</label>
+                <label class="label-form" for="email-field">SELECT YOUR COLLEGE</label>
                 <input class="w-input input-form" id="email-field" type="email" name="email" data-name="email" required="required">
                 <div class="separator-fields"></div>
               </div>
               <div>
-                <label class="label-form" for="password-ield">PASSWORD</label>
+                <label class="label-form" for="password-ield">WHAT'S THE NAME OF YOUR COLLEGE</label>
                 <input class="w-input input-form" id="password-ield" type="password" name="password" data-name="password" required="required">
                 <div class="separator-fields"></div>
               </div>
-              <div>
-                <label class="label-form" for="birthday-field">BIRTHDAY</label>
-                <input class="w-input input-form" id="birthday-field" type="text" name="birthday" data-name="birthday" required="required">
-              </div>
               <div class="separator-button-input"></div>
               <input class="w-button action-button" type="submit" value="Sign Up" data-wait="Please wait...">
-              <div class="separator-button"></div><a class="link-upper" href="login.html" data-load="1">ALREADY HAVE AN ACCOUNT? <strong class="b-link">SIGN IN</strong></a>
-            </form>
-            <div class="w-form-done">
-              <p>Thank you! Your submission has been received!</p>
-            </div>
-            <div class="w-form-fail">
-              <p>Oops! Something went wrong while submitting the form</p>
-            </div>
+                <button type="button" onclick="fblogin(true);" class="btn btn-primary btn-lg col-sm-12" style="width:100%;"><i class="fa fa-facebook-square"></i> Sign Up With Facebook</button>
           </div>
         </div>
       </div>
