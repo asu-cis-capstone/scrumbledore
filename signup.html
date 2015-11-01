@@ -17,10 +17,16 @@
       }
     });
   </script>
+    <script>
+        function unhide()
+        {
+            document.getElementById('collegedrop').style.visibility = 'visible';
+        }
+    </script>
+    
   <script type="text/javascript" src="js/modernizr.js"></script>
   <link rel="shortcut icon" type="image/x-icon" href="images/logoStandford32.ico">
   <link rel="apple-touch-icon" href="images/logoStandford32.ico">
-
   <link href="css/ionicons.min.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -42,17 +48,19 @@
           <div class="w-form">
             <form id="submit-form" name="email-form" data-name="Email Form" data-redirect="settings.html" action="#">
               <div>
-                <label class="label-form" for="location-field">LOCATION</label>
-                <input class="w-input input-form" id="location-field" type="text" name="location" data-name="location" required="required">
+                <label class="label-form" for="location-field">Enter your address to find your college</label>
+                <input class="w-input input-form" id="location-field" type="text" name="location" data-name="location" required="required" autofocus>
+                  <label class="label-form" aligh=center><center>Use my location</center></label>
+                  <input class="w-button action-button" onclick="unhide()" type="button" id="find" value="Find Your College">
                 <div class="separator-fields"></div>
               </div>
-              <div>
-                <label class="label-form" for="college-field">SELECT YOUR COLLEGE</label>
+              <div id="collegedrop" style="visibility:hidden">
                       <select style="width: 100%">
-                            <option value="1">1</option>
+                            <option>Select your college</option>
                             <option value="2">2</option>
                             <option value="3">3</option>
                             <option value="4">4</option>
+                            <option value="0">I don't see my college</option>
                       </select>
             <div class="separator-fields"></div>
               </div>
