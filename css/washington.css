@@ -661,6 +661,12 @@ a {
   padding-right: 4px;
   float: left;
 }
+.group-block.middle {
+  width: 100%;
+  padding-top: 10px;
+  padding-right: 4px;
+  padding-left: 4px;
+}
 .group-block.last {
   margin-right: 0px;
   padding-right: 0px;
@@ -672,6 +678,20 @@ a {
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
+}
+.group-image-arrows {
+  height: 68px;
+  width: 100%;
+  background-image: url('../images/arrows.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.group-image-more {
+  height: 68px;
+  width: 100%;
+  background-image: url('../images/vertical-dots.png');
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 .group-image.bg1 {
   background-image: url('../images/3wBPUcDrR9KaduD3PvkY_DSC_0915.jpg');
@@ -693,6 +713,29 @@ a {
   height: 68px;
   background-color: white;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.group-title-left {
+  width: 10%;
+  height: 68px;
+  background-color: white;
+  text-align: center;
+  float: left;
+}
+.group-title-right {
+  width: 10%;
+  height: 68px;
+  background-color: white;
+  text-align: center;
+  float: left;
+}
+.group-title-center {
+  width: 80%;
+  height: 68px;
+  background-color: white;
+  text-align: center;
+  float: left;
 }
 .title-text {
   line-height: 68px;
