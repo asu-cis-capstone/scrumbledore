@@ -30,7 +30,7 @@
       <div class="w-nav navbar" data-collapse="all" data-animation="over-left" data-duration="400" data-contain="1" data-easing="ease-out-quint" data-no-scroll="1">
         <div class="w-container">
           <div class="wrapper-mask" data-ix="menu-mask"></div>
-          <div class="navbar-title">Add New</div>
+          <div class="navbar-title">Fill Out Information</div>
           <a class="w-inline-block navbar-button right bigger" href="todo-list.html" data-load="1">
             <div class="navbar-button-icon icon ion-ios-checkmark-empty"></div>
           </a>
@@ -46,16 +46,24 @@
             <div class="separator-fields"></div>
             <div class="background-grey"></div>
             <div class="row-input-list">
-              <label class="label-form" for="title">TITLE</label>
+              <label class="label-form" for="title">Add a title.</label>
               <input class="w-input input-form in-grey" id="title" type="text" name="title" data-name="title" required="required">
               <div class="separator-fields"></div>
             </div>
             <div class="background-grey last"></div>
             <div class="row-input-list">
-              <label class="label-form" for="description-2">DESCRIPTION</label>
+              <label class="label-form" for="description-2">Add a description.</label>
               <input class="w-input input-form in-grey-last" id="description-2" type="text" name="description" data-name="description" required="required">
               <div class="separator-fields"></div>
             </div>
+            </ br>
+            
+            
+            <form name="myWebForm" action="mailto:youremail@email.com" method="post">
+			<input type="file" name="uploadField" />
+			</form>
+            
+            
             <div class="row-input-list">
               <label class="label-form" for="birthday-field">DATE</label>
               <input class="w-input input-form" id="birthday-field" type="text" name="birthday" data-name="birthday" required="required">
@@ -73,6 +81,9 @@
                 <div class="separator-fields"></div>
               </div>
             </div>
+              <div class="separator-fields"></div>
+              <div class="w-widget w-widget-map square-map" data-widget-latlng="33.416519, -111.934471" data-widget-style="roadmap" data-widget-zoom="17"></div>
+              <div class="separator-fields"></div>
             <div class="row-input-list">
               <label class="label-form" for="birthday-field">LOCATION</label>
               <div class="block-input-combined">
