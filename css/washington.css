@@ -773,6 +773,13 @@ a {
   border: 1px solid #e6e6e6;
   background-color: white;
 }
+.text-new.votes {
+  position: relative;
+  width: 222px;
+  margin-right: 10px;
+  margin-left: 100px;
+  padding-left: 20px;
+}
 .text-new.no-borders {
   border-style: none;
   border-width: 0px;
@@ -868,6 +875,30 @@ a {
 }
 .icon-button.bigger {
   font-size: 20px;
+}
+.arrow-button {
+  display: inline-block;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  width: 15px;
+  height: 15px;
+  padding-bottom: 20px;
+  float: left;
+  font-size: 13px;
+}
+.small-arrow {
+  width: auto;
+  padding: 4px 6px;
+  border-radius: 2px;
+  background-color: #4fd2c2;
+  color: white;
+  font-size: 10px;
+  text-decoration: none;
+  background-color: #e8e8e8;
+  color: #878787;
+  margin-right: 0px;
+  margin-left: 16px;
+  float: right;
 }
 .text-button {
   display: inline-block;
