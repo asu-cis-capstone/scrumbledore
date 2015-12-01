@@ -877,18 +877,19 @@ a {
   font-size: 20px;
 }
 .arrow-button {
-  display: inline-block;
+  display: block;
   overflow-x: hidden;
   overflow-y: hidden;
-  width: 15px;
+  width: 14px;
   height: 15px;
   padding-bottom: 20px;
-  float: left;
   font-size: 13px;
+  margin-right: auto;
+  margin-left: auto;
 }
 .small-arrow {
   width: auto;
-  padding: 4px 6px;
+  padding: 4px 4px 4px 4px;
   border-radius: 2px;
   background-color: #4fd2c2;
   color: white;
@@ -899,6 +900,7 @@ a {
   margin-right: 0px;
   margin-left: 16px;
   float: right;
+  text-align: center;
 }
 .text-button {
   display: inline-block;
